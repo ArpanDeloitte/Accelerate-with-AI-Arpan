@@ -1,0 +1,18 @@
+# Local-only secrets (Live DB) — never commit / never share
+connections/
+connections.json
+.staging/
+.env
+instantclient/
+*.sso
+*.pem
+*.p12
+*.jks
+bridge.log
+
+# Python / venv
+__pycache__/
+*.pyc
+.venv/
+venv/
+
